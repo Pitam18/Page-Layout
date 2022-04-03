@@ -1,0 +1,164 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.col-1
+{
+	background-color: #109FEE;
+	float: left;
+	width: 50%;
+	height: 750px;
+
+}
+.col-2
+{
+	width: 50%;
+	float: left;
+	height: 750px;
+}
+h1
+{
+	color: white;
+	font-size: 45px;
+	font-family: sans-serif;
+}
+.search
+{
+	width:35px;
+	height:35px;
+	float: left;
+	padding-right: 15px;
+
+}
+.lock
+{
+	width:35px;
+	height:35px;
+	float: left;
+	padding-right: 15px;
+
+}
+.delete
+{
+width:45x;
+	height:45px;
+	float: left;
+	padding-right: 15px;
+	padding: 20px;
+}
+.content
+{
+	color: white;
+   margin-top: 140px;
+  margin-bottom: 100px;
+  margin-right: 250px;
+  margin-left: 120px;
+}
+.content-2
+{
+	color: black;
+   margin-top: 140px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 120px;
+}
+h3
+{
+	padding: 5px;
+	font-family: sans-serif;
+}
+p
+{
+	font-size: 18px;
+	line-height: 35px;
+}
+.pin 
+{
+	width:20px;
+	height:20px;
+	 position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+.topnav
+{
+	display: none;
+}
+@media only screen and (max-width:900px) 
+{
+	.col-1
+	{
+	background-color: #109FEE;
+	float: left;
+	width: 100%;
+	height: 550px;
+
+	}
+	.col-2
+	{
+	width: 100%;
+	float: left;
+	height: 550px;
+	}
+	.content
+{
+	color: white;
+   margin-top: 40px;
+  margin-bottom: 40px;
+  margin-right: 50px;
+  margin-left: 60px;
+}
+.content-2
+{
+	color: black;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  margin-right: 50px;
+  margin-left:35px;
+}
+.pin 
+{
+  display: none;
+}
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+  display: block;
+}
+.topnav #myLinks {
+  display: none;
+}
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+}
+.topnav a.icon {
+  background: white;
+  color: #109FEE;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.topnav a:hover {
+  background-color: #109FEE;
+  color: black;
+}
+.active {
+  background-color: white;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 50px;
+}
+p
+{
+	line-height:20px;
+}
+
